@@ -1,8 +1,37 @@
-# React + Vite
+# MoviesLib
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um site de portfólio simples utilizando API para visualização de informações sobre filmes
 
-Currently, two official plugins are available:
+# Demonstração   
+[Acesse o site](https://movies-lib-xi.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tecnologias Utilizadas
+- HTML5
+- CSS3
+- JavaScript  
+- React
+- API TMDB
+
+#Como rodar o projeto?
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/GabrielM6/MoviesLib.git
+   cd MoviesLib
+   npm install
+
+2. Obtenha a chave da API TMDB
+   Acesse TMDB Developer, crie uma conta e solicite uma chave de API.
+   crie uma conta e solicite uma chave de api
+
+3. Configure as variáveis de ambiente:
+   Crie um arquivo chamado .env na raiz do projeto e adicione:
+   ```.env
+   VITE_API_KEY=api_key=SUA_CHAVE_API
+   VITE_API=https://api.themoviedb.org/3/movie/
+   VITE_SEARCH=https://api.themoviedb.org/3/search/movie
+   VITE_IMG=https://image.tmdb.org/t/p/w500/
+
+4.Rode o projeto:
+  no terminal execute:
+  ```bash
+  npm run dev
