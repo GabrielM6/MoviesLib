@@ -20,7 +20,7 @@ Um site de portfólio simples utilizando API para visualização de informaçõe
    npm install
 
 2. Obtenha a chave da API TMDB
-   Acesse TMDB Developer, crie uma conta e solicite uma chave de API.
+   Acesse [TMDB Developer](https://developer.themoviedb.org/docs/getting-started), crie uma conta e solicite uma chave de API.
    crie uma conta e solicite uma chave de api
 
 3. Configure as variáveis de ambiente:
@@ -32,6 +32,6 @@ Um site de portfólio simples utilizando API para visualização de informaçõe
    VITE_IMG=https://image.tmdb.org/t/p/w500/
 
 4.Rode o projeto:
-  no terminal execute:
-  ```bash
-  npm run dev
+   no terminal execute:
+   ```bash
+   npm run dev
