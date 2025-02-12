@@ -19,9 +19,8 @@ Um site de portfólio simples utilizando API para visualização de informaçõe
    cd MoviesLib
    npm install
 
-2. Obtenha a chave da API TMDB
+2. Obtenha a chave da API TMDB:
    Acesse [TMDB Developer](https://developer.themoviedb.org/docs/getting-started), crie uma conta e solicite uma chave de API.
-   crie uma conta e solicite uma chave de api
 
 3. Configure as variáveis de ambiente:
    Crie um arquivo chamado .env na raiz do projeto e adicione:
